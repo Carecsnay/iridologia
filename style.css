@@ -1,0 +1,375 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo para o navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f8f8;
+  padding: 1.25em;
+  box-shadow: 0 0.125em 0.25em rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+/* Estilo para os links do navbar */
+nav a {
+  color: #0A6C8A;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 1.25em;
+}
+
+/* Estilo para a imagem do logo */
+.logo img {
+  height: 3.125em;
+}
+
+/* Estilo para as seções */
+.section {
+  border-top: 0.0625em solid #ccc; /* Adicione uma borda superior */
+  padding-top: 3.125em; /* Adicione um espaçamento para separar as seções */
+}
+
+/* Estilo para a seção home */
+.home {
+  background-image: url("./assets/bg.jpg");
+  background-repeat: no-repeat; /* Evita a repetição da imagem de fundo */
+  background-size: cover; /* Redimensiona a imagem para cobrir todo o elemento */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Estilo para o texto de boas-vindas */
+.home .welcome-text {
+  color: #0A6C8A;
+}
+
+/* Estilo para o título */
+.home .welcome-text h1 {
+  font-size: 2.25em;
+  margin-top: 7.5em;
+}
+
+/* Estilo para o parágrafo */
+.home .welcome-text p {
+  font-size: 1.125em;
+  margin-bottom: 1.875em;
+}
+
+/* Estilo para o botão */
+.home .welcome-text .btn {
+  display: inline-block;
+  padding: 0.625em 1.25em;
+  background-color: #7B9FB0;
+  color: #0A6C8A;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 0.25em;
+  transition: background-color 0.3s ease;
+}
+
+.home .welcome-text .btn:hover {
+  background-color: #eaeaea;
+}
+
+/* Estilo para a transição do fundo */
+.home.active-section {
+  background-size: 92%;
+}
+
+.text-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.0rem
+}
+
+.image-container {
+  flex-basis: 50%;
+}
+
+.image-container > div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.text {
+  flex-grow: 1;
+}
+
+.sobre {
+  background-color: #B2CED8;
+}
+
+h3 {
+  font-size: 2.25em;
+  color: #0A6C8A;
+}
+
+p {
+  color: #0C6D8A;
+  font-size: 1em;
+}
+
+.text {
+  flex-grow: 1;
+}
+
+/* Estilo para a seção serviços */
+.servicos {
+  background-color: #0A6C8A;
+  padding: 3.125em;
+}
+
+.servicos div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2.5em;
+}
+
+.servicos .item {
+  width: 12.5em;
+  text-align: center;
+}
+
+/* Estilo para cada imagem na seção serviços */
+.servicos img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+/* Efeito de transição suave ao passar o mouse sobre as imagens */
+.servicos img:hover {
+  transform: scale(1.1);
+}
+
+/* Estilo para o texto abaixo de cada imagem na seção serviços */
+.servicos h4 {
+  color: #fff;
+}
+
+.servicos p {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+/* Estilo para a seção de contato */
+.contato {
+  background-color: #B2CED8;
+  padding: 3.125em;
+}
+
+/* Estilo para o wrapper da seção de contato */
+.contato-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* Estilo para a parte esquerda da seção de contato */
+.endereco {
+  width: 30%;
+}
+
+.endereco h3 {
+  margin-bottom: 0.625em;
+}
+
+.endereco p {
+  margin-bottom: 1.25em;
+}
+
+/* Estilo para o ícone do Instagram */
+.endereco img {
+  width: 1.875em;
+}
+
+/* Estilo para a parte direita da seção de contato */
+.formulario {
+  width: 50%;
+  margin-left: 6.25em;
+}
+
+.formulario h3 {
+  margin-bottom: 1.25em;
+}
+
+.formulario form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario input,
+.formulario textarea {
+  margin-bottom: 0.625em;
+  padding: 0.625em;
+}
+
+.formulario button {
+  padding: 0.625em 1.25em;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilo para o mapa */
+.mapa {
+  width: 30.0rem;
+  height: 11.25em;
+  /* Adicione outros estilos do mapa aqui, como borda, sombra, etc. */
+}
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 1.25em;
+  right: 1.25em;
+  width: 3.75em;
+  height: 3.75em;
+  background-color: #25D366;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0.125em 0.25em rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-button img {
+  width: 50%;
+  height: auto;
+}
+
+.whatsapp-button:hover {
+  background-color: #128C7E;
+}
+
+footer {
+  background-color: #f8f8f8;
+  padding: 0.625em;
+  text-align: center;
+  font-size: 0.75em;
+  color: #777;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content span {
+  margin-right: 0.625em;
+}
+
+.footer-content a {
+  color: #777;
+  text-decoration: none;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
+/* Media queries para tornar o layout responsivo */
+@media screen and (max-width: 768px) {
+  nav {
+    padding: 0.625em;
+  }
+
+  nav a {
+    margin-left: 0.625em;
+  }
+
+  .logo img {
+    height: 2.5em;
+  }
+
+  .home .welcome-text h1 {
+    font-size: 1.875em;
+    margin-bottom: 0.9375em;
+  }
+
+  .home .welcome-text p {
+    font-size: 1em;
+    margin-bottom: 1.5625em;
+  }
+
+  .home .welcome-text .btn {
+    padding: 0.5em 1em;
+  }
+
+  .text-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+    margin-bottom: 1.25em;
+  }
+
+  .servicos .item {
+    width: 100%;
+  }
+
+  .contato-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .endereco {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1.25em;
+  }
+
+  .formulario {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .mapa {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .servicos div {
+    gap: 1.25em;
+  }
+
+  .servicos .item {
+    width: 100%;
+    margin-bottom: 1.25em;
+  }
+
+  .contato {
+    padding: 2.5em;
+  }
+
+  .formulario {
+    margin-left: 0;
+  }
+}
