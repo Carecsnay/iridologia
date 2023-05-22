@@ -124,7 +124,7 @@ h3 {
 
 p {
   color: #0C6D8A;
-  font-size: 1em;
+  font-size: 1.1em;
 }
 
 .text {
@@ -154,6 +154,7 @@ p {
 .servicos img {
   width: 100%;
   height: auto;
+  border-radius: 15%;
   transition: transform 0.3s ease;
 }
 
@@ -168,7 +169,7 @@ p {
 }
 
 .servicos p {
-  margin-bottom: 10px;
+  margin: 0 auto;
   color: #fff;
 }
 
