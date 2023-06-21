@@ -131,45 +131,51 @@ p {
   flex-grow: 1;
 }
 
-/* Estilo para a seção serviços */
 .servicos {
   background-color: #0A6C8A;
+  padding: 0;
+}
+
+.servicos .container {
   padding: 3.125em;
 }
 
-.servicos div {
+.servicos .row {
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 2.5em;
+}
+
+.servicos .col {
+  display: flex;
+  flex-direction: column;
   gap: 2.5em;
 }
 
 .servicos .item {
-  width: 12.5em;
-  text-align: center;
+  display: flex;
+  align-items: center;
 }
 
-/* Estilo para cada imagem na seção serviços */
 .servicos img {
-  width: 100%;
+  width: 50%;
   height: auto;
   border-radius: 15%;
   transition: transform 0.3s ease;
 }
 
-/* Efeito de transição suave ao passar o mouse sobre as imagens */
 .servicos img:hover {
   transform: scale(1.1);
 }
 
-/* Estilo para o texto abaixo de cada imagem na seção serviços */
-.servicos h4 {
+.servicos .item-content {
   color: #fff;
+  margin-left: 1em;
 }
 
-.servicos p {
-  margin: 0 auto;
+.servicos .item-content h3,
+.servicos .item-content p {
   color: #fff;
 }
 
@@ -221,7 +227,7 @@ p {
 
 .formulario input,
 .formulario textarea {
-  margin-bottom: 0.625em;
+  margin-bottom: 1.625em;
   padding: 0.625em;
 }
 
@@ -229,7 +235,7 @@ p {
   padding: 0.625em 1.25em;
   background-color: #333;
   color: #fff;
-  border: none;
+  border-radius: 5px;
   cursor: pointer;
 }
 
