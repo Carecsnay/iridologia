@@ -101,16 +101,26 @@ nav a {
 .image-container > div {
   display: flex;
   flex-direction: column;
-  margin-bottom: 25px;
+  margin-bottom: 1.2rem;
 }
 
 .image-container img {
   width: 100%;
   height: auto;
+  border-radius: 5px;
+  margin-left: 1.0rem;
+  transition: transform 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.image-container img:hover {
+  transform: scale(1.1);
 }
 
 .text {
   flex-grow: 1;
+  margin-left: 0.5rem;
+  text-align: justify;
 }
 
 .sobre {
@@ -237,6 +247,10 @@ p {
   color: #fff;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.formulario button:hover {
+  background-color: #444;
 }
 
 /* Estilo para o mapa */
