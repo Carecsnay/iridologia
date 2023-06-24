@@ -10,8 +10,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   background-color: #f8f8f8;
-  padding: 1.25em;
-  box-shadow: 0 0.125em 0.25em rgba(0, 0, 0, 0.1);
+  padding: 0.625rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
   position: fixed;
   top: 0;
   left: 0;
@@ -24,18 +24,18 @@ nav a {
   color: #0A6C8A;
   font-weight: bold;
   text-decoration: none;
-  margin-left: 1.25em;
+  margin-left: 0.625rem;
 }
 
 /* Estilo para a imagem do logo */
 .logo img {
-  height: 3.125em;
+  height: 3.125rem;
 }
 
 /* Estilo para as seções */
 .section {
-  border-top: 0.0625em solid #ccc; /* Adicione uma borda superior */
-  padding-top: 3.125em; /* Adicione um espaçamento para separar as seções */
+  border-top: 0.0625rem solid #ccc; /* Adicione uma borda superior */
+  padding-top: 3.125rem; /* Adicione um espaçamento para separar as seções */
 }
 
 /* Estilo para a seção home */
@@ -57,25 +57,25 @@ nav a {
 
 /* Estilo para o título */
 .home .welcome-text h1 {
-  font-size: 2.25em;
-  margin-top: 7.5em;
+  font-size: 2.25rem;
+  margin-top: 7.5rem;
 }
 
 /* Estilo para o parágrafo */
 .home .welcome-text p {
-  font-size: 1.125em;
-  margin-bottom: 1.875em;
+  font-size: 1.125rem;
+  margin-bottom: 1.875rem;
 }
 
 /* Estilo para o botão */
 .home .welcome-text .btn {
   display: inline-block;
-  padding: 0.625em 1.25em;
+  padding: 0.625rem 1.25rem;
   background-color: #7B9FB0;
   color: #0A6C8A;
   font-weight: bold;
   text-decoration: none;
-  border-radius: 0.25em;
+  border-radius: 0.25rem;
   transition: background-color 0.3s ease;
 }
 
@@ -91,7 +91,7 @@ nav a {
 .text-container {
   display: flex;
   align-items: flex-start;
-  gap: 1.0rem
+  gap: 1.0rem;
 }
 
 .image-container {
@@ -108,7 +108,7 @@ nav a {
   width: 100%;
   height: auto;
   border-radius: 5px;
-  margin-left: 1.0rem;
+  margin-left: 0.625rem;
   transition: transform 0.3s ease;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
 }
@@ -128,13 +128,13 @@ nav a {
 }
 
 h3 {
-  font-size: 2.25em;
+  font-size: 2.25rem;
   color: #0A6C8A;
 }
 
 p {
   color: #0C6D8A;
-  font-size: 1.1em;
+  font-size: 1.1rem;
 }
 
 .text {
@@ -147,25 +147,28 @@ p {
 }
 
 .servicos .container {
-  padding: 3.125em;
+  padding: 3.125rem;
 }
 
 .servicos .row {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: 2.5em;
+  gap: 2.5rem;
 }
 
 .servicos .col {
   display: flex;
   flex-direction: column;
-  gap: 2.5em;
+  gap: 2.5rem;
 }
 
 .servicos .item {
+  width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
+  margin-bottom: 1.25rem;
 }
 
 .servicos img {
@@ -192,7 +195,7 @@ p {
 /* Estilo para a seção de contato */
 .contato {
   background-color: #B2CED8;
-  padding: 3.125em;
+  padding: 3.125rem;
 }
 
 /* Estilo para o wrapper da seção de contato */
@@ -208,26 +211,26 @@ p {
 }
 
 .endereco h3 {
-  margin-bottom: 0.625em;
+  margin-bottom: 0.625rem;
 }
 
 .endereco p {
-  margin-bottom: 1.25em;
+  margin-bottom: 1.25rem;
 }
 
 /* Estilo para o ícone do Instagram */
 .endereco img {
-  width: 1.875em;
+  width: 1.875rem;
 }
 
 /* Estilo para a parte direita da seção de contato */
 .formulario {
   width: 50%;
-  margin-left: 6.25em;
+  margin-left: 6.25rem;
 }
 
 .formulario h3 {
-  margin-bottom: 1.25em;
+  margin-bottom: 1.25rem;
 }
 
 .formulario form {
@@ -237,12 +240,12 @@ p {
 
 .formulario input,
 .formulario textarea {
-  margin-bottom: 1.625em;
-  padding: 0.625em;
+  margin-bottom: 1.625rem;
+  padding: 0.625rem;
 }
 
 .formulario button {
-  padding: 0.625em 1.25em;
+  padding: 0.625rem 1.25rem;
   background-color: #333;
   color: #fff;
   border-radius: 5px;
@@ -256,22 +259,22 @@ p {
 /* Estilo para o mapa */
 .mapa {
   width: 30.0rem;
-  height: 11.25em;
+  height: 11.25rem;
   /* Adicione outros estilos do mapa aqui, como borda, sombra, etc. */
 }
 
 .whatsapp-button {
   position: fixed;
-  bottom: 1.25em;
-  right: 1.25em;
-  width: 3.75em;
-  height: 3.75em;
+  bottom: 1.25rem;
+  right: 1.25rem;
+  width: 4.375rem;
+  height: 4.375rem;
   background-color: #25D366;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 0.125em 0.25em rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.2);
   transition: background-color 0.3s ease;
 }
 
@@ -286,9 +289,9 @@ p {
 
 footer {
   background-color: #f8f8f8;
-  padding: 0.625em;
+  padding: 0.625rem;
   text-align: center;
-  font-size: 0.75em;
+  font-size: 0.75rem;
   color: #777;
 }
 
@@ -299,7 +302,7 @@ footer {
 }
 
 .footer-content span {
-  margin-right: 0.625em;
+  margin-right: 0.625rem;
 }
 
 .footer-content a {
@@ -314,29 +317,29 @@ footer {
 /* Media queries para tornar o layout responsivo */
 @media screen and (max-width: 768px) {
   nav {
-    padding: 0.625em;
+    padding: 0.625rem;
   }
 
   nav a {
-    margin-left: 0.625em;
+    margin-left: 0.625rem;
   }
 
   .logo img {
-    height: 2.5em;
+    height: 2.5rem;
   }
 
   .home .welcome-text h1 {
-    font-size: 1.875em;
-    margin-bottom: 0.9375em;
+    font-size: 1.875rem;
+    margin-bottom: 0.9375rem;
   }
 
   .home .welcome-text p {
-    font-size: 1em;
-    margin-bottom: 1.5625em;
+    font-size: 1rem;
+    margin-bottom: 1.5625rem;
   }
 
   .home .welcome-text .btn {
-    padding: 0.5em 1em;
+    padding: 0.5rem 1rem;
   }
 
   .text-container {
@@ -348,7 +351,7 @@ footer {
     width: 100%;
     float: none;
     margin-right: 0;
-    margin-bottom: 1.25em;
+    margin-bottom: 1.25rem;
   }
 
   .servicos .item {
@@ -363,7 +366,7 @@ footer {
   .endereco {
     width: 100%;
     text-align: center;
-    margin-bottom: 1.25em;
+    margin-bottom: 1.25rem;
   }
 
   .formulario {
@@ -378,16 +381,16 @@ footer {
 
 @media screen and (max-width: 480px) {
   .servicos div {
-    gap: 1.25em;
+    gap: 1.25rem;
   }
 
   .servicos .item {
     width: 100%;
-    margin-bottom: 1.25em;
+    margin-bottom: 1.25rem;
   }
 
   .contato {
-    padding: 2.5em;
+    padding: 2.5rem;
   }
 
   .formulario {
