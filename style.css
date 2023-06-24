@@ -139,6 +139,7 @@ p {
 
 .text {
   flex-grow: 1;
+  text-align: justify;
 }
 
 .servicos {
@@ -164,9 +165,7 @@ p {
 }
 
 .servicos .item {
-  width: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
   margin-bottom: 1.25rem;
 }
@@ -176,6 +175,7 @@ p {
   height: auto;
   border-radius: 15%;
   transition: transform 0.3s ease;
+  margin-right: 1em; /* Adiciona margem à direita da imagem */
 }
 
 .servicos img:hover {
@@ -184,12 +184,16 @@ p {
 
 .servicos .item-content {
   color: #fff;
-  margin-left: 1em;
 }
 
 .servicos .item-content h3,
 .servicos .item-content p {
   color: #fff;
+  text-align: left; /* Alinha o texto à esquerda */
+}
+
+.servicos .item-content p {
+  margin-top: 0.5rem; /* Adiciona um espaço entre o título e o parágrafo */
 }
 
 /* Estilo para a seção de contato */
