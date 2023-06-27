@@ -43,6 +43,7 @@ nav a {
   background-image: url("./assets/bg.jpg");
   background-repeat: no-repeat; /* Evita a repetição da imagem de fundo */
   background-size: cover; /* Redimensiona a imagem para cobrir todo o elemento */
+  background-position: center top;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -63,7 +64,7 @@ nav a {
 
 /* Estilo para o parágrafo */
 .home .welcome-text p {
-  font-size: 1.125rem;
+  font-size: 1.300rem;
   margin-bottom: 1.875rem;
 }
 
@@ -101,11 +102,11 @@ nav a {
 .image-container > div {
   display: flex;
   flex-direction: column;
-  margin-bottom: 1.2rem;
+  margin-bottom: 2.0rem;
 }
 
 .image-container img {
-  width: 100%;
+  max-width: 100%; /* Adicionado: Limita a largura da imagem */
   height: auto;
   border-radius: 5px;
   margin-left: 0.625rem;
@@ -122,6 +123,7 @@ nav a {
   margin-left: 0.5rem;
   text-align: justify;
 }
+
 
 .sobre {
   background-color: #B2CED8;
@@ -153,12 +155,14 @@ p {
 
 .servicos .row {
   display: flex;
+  flex-wrap: wrap; /* Adiciona quebra de linha quando necessário */
   justify-content: center;
   align-items: flex-start;
   gap: 2.5rem;
 }
 
 .servicos .col {
+  flex: 1; /* Ocupa o espaço disponível horizontalmente */
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
@@ -171,11 +175,12 @@ p {
 }
 
 .servicos img {
-  width: 50%;
+  width: 100%; /* Alterado: Ocupa 100% do contêiner */
+  max-width: 200px; /* Adicionado: Limita a largura máxima da imagem */
   height: auto;
   border-radius: 15%;
   transition: transform 0.3s ease;
-  margin-right: 1em; /* Adiciona margem à direita da imagem */
+  margin-right: 1em;
 }
 
 .servicos img:hover {
@@ -189,11 +194,11 @@ p {
 .servicos .item-content h3,
 .servicos .item-content p {
   color: #fff;
-  text-align: left; /* Alinha o texto à esquerda */
+  text-align: left;
 }
 
 .servicos .item-content p {
-  margin-top: 0.5rem; /* Adiciona um espaço entre o título e o parágrafo */
+  margin-top: 0.5rem;
 }
 
 /* Estilo para a seção de contato */
@@ -205,13 +210,15 @@ p {
 /* Estilo para o wrapper da seção de contato */
 .contato-wrapper {
   display: flex;
+  flex-wrap: wrap; /* Adiciona quebra de linha quando necessário */
   justify-content: space-between;
   align-items: flex-start;
 }
 
 /* Estilo para a parte esquerda da seção de contato */
 .endereco {
-  width: 30%;
+  width: 100%;
+  max-width: 30%; /* Limita a largura máxima */
 }
 
 .endereco h3 {
@@ -229,8 +236,9 @@ p {
 
 /* Estilo para a parte direita da seção de contato */
 .formulario {
-  width: 50%;
-  margin-left: 6.25rem;
+  width: 100%;
+  max-width: 50%; /* Limita a largura máxima */
+  margin-top: 1.25rem; /* Adiciona espaçamento superior */
 }
 
 .formulario h3 {
@@ -262,9 +270,9 @@ p {
 
 /* Estilo para o mapa */
 .mapa {
-  width: 30.0rem;
+  width: 100%; /* Ocupa 100% do contêiner */
   height: 11.25rem;
-  /* Adicione outros estilos do mapa aqui, como borda, sombra, etc. */
+  margin-top: 1.25rem; /* Adiciona espaçamento superior */
 }
 
 .whatsapp-button {
@@ -358,19 +366,27 @@ footer {
     margin-bottom: 1.25rem;
   }
 
-  .servicos .item {
-    width: 100%;
-  }
-
-  .contato-wrapper {
-    flex-direction: column;
+  .servicos .row {
+    flex-direction: column; /* Alinha os itens verticalmente */
     align-items: center;
   }
 
-  .endereco {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 1.25rem;
+  .servicos .col {
+    flex: none; /* Remove a expansão horizontal */
+  }
+
+  .servicos img {
+    max-width: 100%; /* Ocupa a largura máxima do contêiner */
+  }
+
+  .contato-wrapper {
+    flex-direction: column; /* Alinha os elementos verticalmente */
+  }
+
+  .endereco,
+  .formulario {
+    width: 100%; /* Ocupa 100% do contêiner */
+    max-width: none; /* Remove a limitação de largura máxima */
   }
 
   .formulario {
