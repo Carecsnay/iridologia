@@ -32,7 +32,7 @@ A minha tarefa consistiu em reformular o código HTML e CSS existente, assim com
 
 ## 🔖 Deployment
 
-Você pode visualizar o layout original do projeto através desse link:
+Você pode visualizar os deploys dos projetos através desses links:
 <br>🟢[Vercel](https://iridologia-seven.vercel.app/) (Minhas alterações).
 <br>🟢[Site original](https://www.taisiridologista.com.br/) (Particularidades da equipe Meet Developers).
 
