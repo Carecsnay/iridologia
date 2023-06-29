@@ -1,6 +1,19 @@
-document.addEventListener('DOMContentLoaded', function() {
+// Seleciona os elementos do menu móvel e da navegação móvel
+const menuMobile = document.querySelector(".menu-mobile");
+const mobileNav = document.querySelector(".menu-mobile");
+
+// Adiciona um ouvinte de evento de clique no ícone do menu móvel
+menuMobile.addEventListener('click', function () {
+  // Adiciona ou remove a classe "nav-active" para mostrar/ocultar o menu móvel
+  mobileNav.classList.toggle('nav-active');
+});
+
+console.log('VOCÊ É MUITO CURIOSO!')
+console.log('POR GENTILEZA, SAIA DO MODO DESENVOLVEDOR APERTANDO F12.')
+
+document.addEventListener('DOMContentLoaded', function () {
   // Adicionar rolagem suave para os links do menu de navegação
-  var links = document.querySelectorAll('nav a');
+  var links = document.querySelectorAll('nav ul li a');
   for (var i = 0; i < links.length; i++) {
     links[i].addEventListener('click', scrollToSection);
   }
