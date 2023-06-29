@@ -1,4 +1,4 @@
-<h1 align="center"> Reestruturação do projeto -  </h1>
+<h1 align="center"> Reestruturação do projeto - Espaco Tais Silva</h1>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
