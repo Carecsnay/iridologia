@@ -36,7 +36,7 @@ A minha tarefa consistiu em reformular o código HTML e CSS existente, assim com
 
 Você pode visualizar o layout original do projeto através desse link:
 <br>🟢[Vercel](https://iridologia-seven.vercel.app/) (Minhas alterações).
-<br>🟢[Site original](https://iridologia-seven.vercel.app/) (Particularidades da equipe Meet Developers).
+<br>🟢[Site original](https://www.taisiridologista.com.br/) (Particularidades da equipe Meet Developers).
 
 ---
 
