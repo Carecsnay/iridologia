@@ -55,7 +55,7 @@ nav ul li a:hover {
 nav a {
   font-weight: bolder;
   display: block;
-  padding: 31px 20px;
+  padding: 30px 20px;
   color: #0A6C8A;
   text-decoration: none;
   text-align: center;
@@ -92,28 +92,30 @@ header .mobile-nav {
 #home {
   background-image: url("./assets/bg.jpg");
   background-repeat: no-repeat;
-  /* Evita a repetição da imagem de fundo */
   background-size: cover;
-  /* Redimensiona a imagem para cobrir todo o elemento */
   background-position: center top;
-  height: calc(100vh);
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: center; 
 }
 
 #home .rgba {
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.58);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
 }
 
 /* Estilo para o texto de boas-vindas */
 #home .welcome-text {
-  margin-top: 250px;
-  color: #7B9FB0;
+  margin: auto 0;
+  color: #fff;
 }
 
 /* Estilo para o título */
@@ -196,28 +198,19 @@ header .mobile-nav {
   border-radius: 10px;
 }
 
+#sobre .text {
+  flex-grow: 1;
+  text-align: justify;
+}
+
 #sobre .text h3 {
   font-size: 2.5rem;
+  color: #0A6C8A;
 }
 
 #sobre .text p {
   font-size: 1.1rem;
   color: #0A6C8A;
-}
-
-#sobre h3 {
-  font-size: 2.25rem;
-  color: #0A6C8A;
-}
-
-#sobre p {
-  color: #fff;
-  font-size: 1.08rem;
-}
-
-#sobre .text {
-  flex-grow: 1;
-  text-align: justify;
 }
 
 #servicos {
@@ -414,6 +407,29 @@ footer {
     width: auto;
   }
 
+  #home {
+    background-image: url("./assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+  }
+  
+  #home .rgba {
+    width: 100vw;
+    height: calc(100vh - 80px);
+    background-color: rgba(0, 0, 0, 0.58);
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+
   #sobre {
     padding: 49px 50px 50px 50px;
     display: flex;
@@ -532,7 +548,26 @@ footer {
   }
 
   #home {
-    padding: 24.5px 25px 25px 25px;
+    background-image: url("./assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+  }
+  
+  #home .rgba {
+    width: 100vw;
+    height: calc(100vh - 80px);
+    background-color: rgba(0, 0, 0, 0.58);
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
   }
 
   #home .welcome-text h1 {
@@ -681,7 +716,26 @@ footer {
   }
 
   #home {
-    padding: 24.5px 25px 25px 25px;
+    background-image: url("./assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+  }
+  
+  #home .rgba {
+    width: 100vw;
+    height: calc(100vh - 80px);
+    background-color: rgba(0, 0, 0, 0.58);
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
   }
 
   #home .welcome-text h1 {
@@ -761,6 +815,7 @@ footer {
     font-size: 1.5rem;
 
   }
+
   #servicos .item .item-content p {
     font-size: 0.8rem;
 
@@ -785,6 +840,7 @@ footer {
   #contato .endereco h3 {
     font-size: 1.5rem;
   }
+
   #contato .endereco p {
     font-size: 0.8rem;
   }
@@ -802,7 +858,6 @@ footer {
     text-align: center;
     font-size: 1.5rem;
   }
-
 
   #contato .formulario button {
     margin: auto;
