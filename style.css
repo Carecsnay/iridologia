@@ -516,8 +516,8 @@ footer {
 
   .whatsapp-button {
     position: fixed;
-    bottom: .25rem;
-    right: .25rem;
+    bottom: 2.5rem;
+    right: 0.50rem;
     width: 3.375rem;
     height: 3.375rem;
     background-color: #25D366;
