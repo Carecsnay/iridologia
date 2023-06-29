@@ -7,10 +7,10 @@
 </p>
 
 <p align="center">
-  <h3 align="center">Layout Original</h3><br>
+  <h3 align="center">Layout Original</h3>
   <img alt="Desing do Projeto" src=".github/Layout Antigo.png" width="100%"><br><br>
 
-  <h3 align="center">Layout Corrigido</h3><br>
+  <h3 align="center">Layout Corrigido</h3>
   <img alt="Desing do Projeto" src=".github/Layout Novo.png" width="100%""><br><br>
 
   <h3 align="center">Layout Responsivo</h3>
