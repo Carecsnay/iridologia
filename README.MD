@@ -6,8 +6,6 @@
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
-### Link da página: [Clique aqui](https://iridologia-seven.vercel.app/).
-
 <p align="center">
   <h3 align="center">Layout Original</h3><br>
   <img alt="Desing do Projeto" src=".github/Layout Antigo.png" width="100%"><br><br>
